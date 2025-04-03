@@ -21,7 +21,7 @@ function Navbar() {
             </ul>
 
             <button className='CvButton'>
-                <a href="/public/Abhishek Sehjal.pdf" className='CV'>Download CV </a>
+                <a href="/public/Abhishek-Sehjal.pdf" className='CV'>Download CV </a>
             </button>
         </div>
     )
