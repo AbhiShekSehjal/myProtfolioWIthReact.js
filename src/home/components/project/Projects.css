@@ -1,0 +1,21 @@
+.projectContent {
+    padding: 80px 30px;
+    /* height: 800px; */
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.projectText {
+    align-self: flex-start;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "poppins", "sans-serif";
+    margin-bottom: 20px;
+    color: #444444;
+    width: 100%;
+}

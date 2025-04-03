@@ -1,0 +1,93 @@
+.mainContent {
+    height: 100vh;
+    display: flex;
+}
+
+/* leftMainContent */
+.leftMainContent {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.spanText2 {
+    color: #00C9FF;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.mainPera {
+    font-size: 14px;
+    margin-bottom: 46px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.socialMedialinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.socialMedialinks a {
+    color: white;
+    background: rgb(0, 0, 0);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.hireMe {
+    margin-top: 50px;
+    font-weight: 500;
+    padding: 12px 20px;
+    background: rgba(83, 89, 83, 0.199);
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hireMe:hover {
+    background-color: #00C9FF;
+    color: white;
+}
+
+/* rightMainContent */
+.rightMainContent {
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.heroImage {
+    background-image: url("/images/heroImage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 55% 45% 55% 45%;
+    overflow: hidden;
+    animation: imageAnimate 5s ease-in-out infinite;
+}
+
+
+@keyframes imageAnimate {
+    50% {
+        transform: translateY(10px);
+        border-radius: 45% 55% 45% 55%;
+    }
+}
