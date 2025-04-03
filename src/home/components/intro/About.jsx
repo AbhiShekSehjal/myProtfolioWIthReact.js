@@ -5,7 +5,7 @@ import Intro from './components/intro/Intro'
 
 function About() {
     return (
-        <div className="aboutContent">
+        <div className="aboutContent" id='About'>
             <div className='AboutText'>About me</div>
 
             <div className="aboutBoxes">

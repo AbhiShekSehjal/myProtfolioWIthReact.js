@@ -9,13 +9,12 @@ function Header() {
 
     const links = {
         InstaLink: "https://www.instagram.com/abhi_sehjal09/",
-        FbLink: false,
         GitLink: "https://github.com/AbhiShekSehjal",
         LinkedInLink: "https://www.linkedin.com/in/abhi-shek-4a78a5353/",
     }
 
     return (
-        <div>
+        <div id='Home'>
             <div className="mainContent">
                 <div className="leftMainContent">
 
@@ -25,13 +24,12 @@ function Header() {
                     <div className="socialMedialinks">
 
                         <a href={links.InstaLink.toString()}><InstagramIcon fontSize='small' /></a>
-                        <a href={links.FbLink.toString()}><FacebookIcon fontSize='small' /></a>
                         <a href={links.GitLink.toString()}><GitHubIcon fontSize='small' /></a>
                         <a href={links.LinkedInLink.toString()}><LinkedInIcon fontSize='small' /></a>
 
                     </div>
 
-                    <div className="hireMe">Hire me</div>
+                    <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a>
 
                 </div>
 

@@ -7,8 +7,8 @@ import Form from './components/Form';
 
 function Contact() {
     return (
-        <div className="ContactMe" style={{ textAlign: "center" }}>
-            <div className='ContactMeText' >Contact Me</div>
+        <div className="ContactMe" style={{ textAlign: "center",height:"80vh"}}>
+            <div className='ContactMeText' id='contactMe' >Contact Me</div>
             <p className='ContactMeTextPera'>Do you have a project in your mind,contact me here.</p>
             <div className="boxes">
                 <div className="addressBox">

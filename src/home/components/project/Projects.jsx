@@ -4,7 +4,7 @@ import ProjectCard from './components/ProjectCard'
 
 function Projects() {
     return (
-        <div className="projectContent">
+        <div className="projectContent" id='projects'>
             <div className="projectText" style={{ textAlign: "center" }}>Projects</div>
 
             <div className="projects">

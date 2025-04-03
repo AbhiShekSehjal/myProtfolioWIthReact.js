@@ -4,16 +4,11 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
 
-    const CvButtonLink = false;
-
-    const CvButtonClick = () => {
-        { CvButtonLink == false && alert("Very soon CV will upload!") }
-    }
 
     return (
         <div className="navbar">
 
-            <a href="#logo" className="logo">Abhi <span>.</span></a>
+            <a href="#Home" className="logo">Abhi <span>.</span></a>
 
             <ul className="pageLinks">
 
@@ -25,10 +20,8 @@ function Navbar() {
 
             </ul>
 
-            <button
-                className='CvButton'
-                onClick={CvButtonClick}>
-                <a href="#CvButton" className='CV'>Download CV </a>
+            <button className='CvButton'>
+                <a href="/public/Abhishek Sehjal.pdf" className='CV'>Download CV </a>
             </button>
         </div>
     )
