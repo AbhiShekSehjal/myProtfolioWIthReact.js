@@ -96,7 +96,7 @@
     border-radius: 30px;
 }
 
-@media (max-width:320px) {
+@media (max-width:480px) {
     .ContactMeText {
         font-size: 18px;
     }

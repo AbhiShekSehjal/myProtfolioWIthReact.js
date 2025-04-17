@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-@media (max-width:320px) {
+@media (max-width:480px) {
     .projectText {
         font-size: 18px
     }

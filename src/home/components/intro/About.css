@@ -19,7 +19,7 @@
     margin-bottom: 20px;
 }
 
-@media (max-width:320px) {
+@media (max-width:480px) {
     .AboutText{
         font-size: 18px;
     }

@@ -54,7 +54,7 @@ form {
     font-weight: 600;
 }
 
-@media (max-width:320px) {
+@media (max-width:480px) {
 
     #name,
     #email,
