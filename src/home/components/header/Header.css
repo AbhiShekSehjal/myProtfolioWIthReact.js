@@ -101,12 +101,13 @@ h1 {
     }
 
     .heroImage {
-        flex: 0;
+        /* flex: 0;
         height: 100vh;
         width: 100vh;
         border-radius: 0;
         position: absolute;
-        animation: none;
+        animation: none; */
+        display: none;
     }
 
     .spanText2 {
