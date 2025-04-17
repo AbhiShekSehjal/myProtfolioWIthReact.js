@@ -109,8 +109,8 @@ h1 {
 
     .heroImage {
         height: 100vh;
-        position: absolute;
         width: 100vh;
+        position: absolute;
         border-radius: 0;
         animation: none;
         background-position: calc(340px);
@@ -142,5 +142,68 @@ h1 {
 
     .hireMe:hover {
         box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    }
+}
+
+@media (min-width:481px) {
+    .mainContent {
+        flex-direction: column-reverse;
+    }
+
+    .leftMainContent {
+        text-align: center;
+    }
+
+    .heroImage {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 90px;
+    }
+
+    .spanText2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .mainPera {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:980px) {
+    .mainContent {
+        flex-direction: row;
+    }
+
+    .leftMainContent {
+        margin-left: 20px;
+    }
+
+    .heroImage {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 160px;
+    }
+
+    .spanText2 {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .mainPera {
+        font-size: 14px;
+    }
+
+    .socialMedialinks a {
+        padding: 3px;
     }
 }

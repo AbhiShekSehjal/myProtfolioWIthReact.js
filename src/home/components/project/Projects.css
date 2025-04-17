@@ -25,3 +25,16 @@
         font-size: 18px
     }
 }
+
+@media (min-width:481px) {
+    .projectText {
+        font-size: 20px
+    }
+}
+
+@media (min-width:980px) {
+    .projectText {
+        font-size: 26px;
+    }
+
+}

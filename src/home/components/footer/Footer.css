@@ -66,3 +66,33 @@
         width: 30px;
     }
 }
+
+@media (min-width:480px) {
+    .MyName {
+        font-size: 18px;
+    }
+
+    .pageLinksOfFooter {
+        font-size: 14px;
+    }
+
+    .socialMedialinks a {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (min-width:980px) {
+    .MyName {
+        font-size: 20px;
+    }
+
+    .pageLinksOfFooter {
+        font-size: 14px;
+    }
+
+    .socialMedialinks a {
+        height: 30px;
+        width: 30px;
+    }
+}

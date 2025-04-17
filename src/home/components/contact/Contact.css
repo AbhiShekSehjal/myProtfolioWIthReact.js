@@ -125,3 +125,60 @@
         font-size: 12px;
     }
 }
+
+@media (min-width:480px) {
+    .ContactMeText {
+        font-size: 20px;
+    }
+
+    .ContactMeTextPera {
+        font-size: 16px;
+    }
+
+    .ContactMe {
+        height: 800px;
+    }
+
+    .ContactBox {
+        margin-top: 20px;
+    }
+
+    .findMe {
+        font-size: 18px;
+    }
+
+    .email {
+        font-size: 14px;
+    }
+
+    .mobileNO {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:980px) {
+    .ContactMeText {
+        font-size: 26px;
+    }
+
+    .ContactMeTextPera {
+        font-size: 18px;
+    }
+
+    .ContactBox {
+        margin-top: 20px;
+    }
+
+    .findMe {
+        font-size: 20px;
+    }
+
+    .email {
+        font-size: 16px;
+    }
+
+    .mobileNO {
+        font-size: 16px;
+    }
+
+}

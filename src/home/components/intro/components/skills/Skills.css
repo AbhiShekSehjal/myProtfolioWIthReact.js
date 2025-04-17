@@ -27,16 +27,39 @@
 }
 
 @media (max-width:480px) {
-    .skills{
+    .skills {
         box-shadow: none;
     }
 
-    .skillBox{
+    .skillBox {
         height: 600px;
         flex-wrap: wrap;
     }
+
     .list {
         padding: 10px;
         width: 50%;
+    }
+}
+
+@media (min-width:481px) {
+    .skills {
+        box-shadow: none;
+    }
+
+    .skillBox {
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    .list {
+        padding: 10px;
+        width: 50%;
+    }
+}
+
+@media (min-width:1426px) {
+    .skills {
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.752);
     }
 }
