@@ -1,8 +1,57 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
+
+    const [scroll, setScroll] = useState("up");
+
+    useEffect(() => {
+        let lastScrollY = window.scrollY;
+
+        const handleScroll = () => {
+            let currentScrollY = window.scrollY;
+
+            if (lastScrollY > currentScrollY) {
+                setScroll("down");
+                let navbar = document.querySelector(".navbar");
+                let logo = document.querySelector(".logo");
+                let dotSpan = document.querySelector(".dotSpan");
+                const line1 = document.querySelector("#line1");
+                const line2 = document.querySelector("#line2");
+                const line3 = document.querySelector("#line3");
+
+                navbar.style.backgroundColor = "white";
+
+                logo.style.color = "#00c9ff";
+                dotSpan.style.color = "black";
+
+                line1.style.backgroundColor = "black";
+                line2.style.backgroundColor = "black";
+                line3.style.backgroundColor = "black";
+            } else {
+                setScroll("up")
+                let navbar = document.querySelector(".navbar");
+                let logo = document.querySelector(".logo");
+                let dotSpan = document.querySelector(".dotSpan");
+                const line1 = document.querySelector("#line1");
+                const line2 = document.querySelector("#line2");
+                const line3 = document.querySelector("#line3");
+                navbar.style.backgroundColor = "#003a4a";
+                logo.style.color = "white";
+                dotSpan.style.color = "white";
+                line1.style.backgroundColor = "white";
+                line2.style.backgroundColor = "white";
+                line3.style.backgroundColor = "white";
+            }
+
+            lastScrollY = currentScrollY;
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [])
 
     const showSidebar = () => {
         const sidebar = document.querySelector(".sidebar");
@@ -30,11 +79,12 @@ function Navbar() {
         sidebar.style.right = "-300px";
     }
 
+
     return (
         <>
-            <nav className="navbar">
+            <nav className="navbar" id={scroll}>
 
-                <a href="#Home" className="logo">Abhi <span>.</span></a>
+                <a href="#Home" className="logo">Abhi <span className='dotSpan'>.</span></a>
 
                 <ul className="pageLinks">
                     <li><NavLink to={""} className="NavLinks" style={{ textDecoration: "none" }}>Home</NavLink></li>
