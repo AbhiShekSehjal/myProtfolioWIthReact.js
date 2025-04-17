@@ -113,7 +113,14 @@ h1 {
         width: 100vh;
         border-radius: 0;
         animation: none;
-        background-position: calc(350px);
+        background-position: calc(340px);
+    }
+
+    .overlay {
+        background: #00000030;
+        width: 100%;
+        height: 100%;
+        position: relative;
     }
 
     .spanText2 {

@@ -35,7 +35,9 @@ function Header() {
                 </div>
 
                 <div className="rightMainContent">
-                    <div className="heroImage"></div>
+                    <div className="heroImage">
+                        <div className="overlay"></div>
+                    </div>
                 </div>
             </div>
         </div>
