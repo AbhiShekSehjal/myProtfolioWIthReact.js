@@ -110,7 +110,7 @@ h1 {
     .heroImage {
         height: 100vh;
         position: absolute;
-        width: 320px;
+        width: 100vh;
         border-radius: 0;
         animation: none;
     }
