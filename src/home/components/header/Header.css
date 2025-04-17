@@ -113,6 +113,7 @@ h1 {
         width: 100vh;
         border-radius: 0;
         animation: none;
+        background-position: calc(350px);
     }
 
     .spanText2 {
