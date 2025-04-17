@@ -71,7 +71,7 @@
     align-items: center;
     cursor: pointer;
     height: 25px;
-    flex: 0.6;
+    flex: 0.2;
 }
 
 .line1 {
@@ -127,7 +127,7 @@
 @media (max-width:480px) {
     .logo {
         font-size: 20px;
-        flex: 0.6;
+        flex: 0.8;
         justify-content: start;
         margin-left: 10px;
     }
