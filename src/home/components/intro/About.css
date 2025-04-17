@@ -18,3 +18,12 @@
     color: #444444;
     margin-bottom: 20px;
 }
+
+@media (max-width:320px) {
+    .AboutText{
+        font-size: 18px;
+    }
+    .aboutBoxes{
+        flex-direction: column;
+    }
+}

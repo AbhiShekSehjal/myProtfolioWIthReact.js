@@ -7,7 +7,6 @@ h2 {
 i {
     color: #00c9ff;
     z-index: 1;
-
 }
 
 .projectCard {
@@ -42,4 +41,10 @@ i {
 .projectCard:hover i,
 .projectCard:hover h2 {
     color: white;
+}
+
+@media (max-width:320px) {
+    h2 {
+        font-size: 16px;
+    }
 }

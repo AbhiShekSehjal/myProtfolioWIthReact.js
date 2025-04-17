@@ -25,3 +25,18 @@
     flex-direction: column;
     flex: 0.3;
 }
+
+@media (max-width:320px) {
+    .skills{
+        box-shadow: none;
+    }
+
+    .skillBox{
+        height: 600px;
+        flex-wrap: wrap;
+    }
+    .list {
+        padding: 10px;
+        width: 50%;
+    }
+}

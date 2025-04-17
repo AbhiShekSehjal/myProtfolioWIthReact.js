@@ -53,3 +53,16 @@ form {
     font-size: 16px;
     font-weight: 600;
 }
+
+@media (max-width:320px) {
+
+    #name,
+    #email,
+    #msg {
+        font-size: small;
+    }
+
+    .sendBtn a {
+        font-size: 12px;
+    }
+}

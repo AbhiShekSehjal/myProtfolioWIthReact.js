@@ -18,7 +18,6 @@
     margin: 30px 0px 30px 0px;
 }
 
-
 .boxes {
     width: 100%;
     display: flex;
@@ -95,4 +94,34 @@
     height: 315px;
     background-color: #6e57ff;
     border-radius: 30px;
+}
+
+@media (max-width:320px) {
+    .ContactMeText {
+        font-size: 18px;
+    }
+
+    .ContactMeTextPera {
+        font-size: 14px;
+    }
+
+    .ContactMe {
+        height: 800px;
+    }
+
+    .ContactBox {
+        margin-top: 20px;
+    }
+
+    .findMe {
+        font-size: 16px;
+    }
+
+    .email {
+        font-size: 12px;
+    }
+
+    .mobileNO {
+        font-size: 12px;
+    }
 }

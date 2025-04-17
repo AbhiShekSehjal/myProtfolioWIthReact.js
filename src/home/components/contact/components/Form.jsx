@@ -28,6 +28,7 @@ function Form() {
     }
 
     return (
+
         <form onSubmit={handleSubmit}>
             <input
                 id='name'
@@ -57,6 +58,7 @@ function Form() {
             <button className='sendBtn' type='submit'><a href="#hireButton">Send</a></button>
 
         </form>
+
     )
 }
 

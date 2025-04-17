@@ -63,3 +63,86 @@
     background-color: #6e57ff;
     color: white;
 }
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    height: 25px;
+    flex: 0.6;
+}
+
+.line1 {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 10px;
+    transition: all 0.7s ease;
+    transform-origin: left;
+}
+
+.line2 {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 20px;
+    transition: all 0.7s ease;
+}
+
+.line3 {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 30px;
+    transition: all 0.7s ease;
+    transform-origin: left;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.692);
+    position: fixed;
+    right: -300px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+
+.pageLinksPagelinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    color: #444444;
+    font-weight: 700;
+    transition: 0.2s ease-in;
+    gap: 20px;
+}
+
+@media (max-width:950px) {
+    .logo {
+        font-size: 20px;
+        flex: 0.6;
+        justify-content: start;
+        margin-left: 10px;
+    }
+
+    .pageLinks {
+        display: none;
+    }
+
+    .CvButton {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: end;
+        margin-right: 10px;
+    }
+}

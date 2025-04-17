@@ -22,3 +22,9 @@
 .introBox h2 {
     margin-bottom: 20px;
 }
+
+@media (max-width:320px) {
+    .intro {
+        box-shadow: none;
+    }
+}
