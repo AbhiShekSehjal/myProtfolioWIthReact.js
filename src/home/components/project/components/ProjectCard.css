@@ -47,6 +47,11 @@ i {
     h2 {
         font-size: 16px;
     }
+
+    .projectCard {
+        width: 200px;
+        height: 250px;
+    }
 }
 
 @media (min-width:481px) {
