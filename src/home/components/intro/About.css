@@ -33,12 +33,13 @@
     .AboutText {
         font-size: 20px;
     }
+
     .aboutBoxes {
         flex-direction: column;
     }
 }
 
-@media (min-width:980px){
+@media (min-width:980px) {
     .AboutText {
         font-size: 26px;
     }
