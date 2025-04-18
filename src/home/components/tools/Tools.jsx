@@ -7,7 +7,7 @@ function Tools() {
             <h2>Tools and technologies</h2>
             <div className="tools">
                 <div className="tool">
-                    <img src="/public/svg/node-brands.svg" alt="" />
+                    <img src="/src/images/svg/box-photoshop.svg" alt="" />
                 </div>
                 <div className="tool">
                     <img src="/public/svg/figma.svg" alt="" />
