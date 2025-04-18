@@ -5,8 +5,8 @@ function MainProject() {
     return (
         <>
             <div className='MainProject'>My main project</div>
-            <div className="card" style={{ width: "50%", margin: "0 auto", background: "url(/public/images/rk.png)" }}>
-                <a className="cardBtn" style={{ textDecoration: "none" }} >
+            <div className=" mainProjectCard" style={{ margin: "0 auto", background: "url(/public/images/rk.png)" }}>
+                <a className="cardBtn2" style={{ textDecoration: "none" }} >
                     <div>
                         <p>Show</p>
                     </div>

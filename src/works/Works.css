@@ -6,7 +6,7 @@
 }
 
 .image {
-    background: url("/images/code.jpg");
+    background: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHx8MA%3D%3D");
     height: 350px;
     width: 100%;
     background-repeat: no-repeat;
@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .overshade {
@@ -32,16 +33,16 @@
 }
 
 .myProjects {
-    padding: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .card {
     height: 400px;
-    width: 300px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.251);
     display: flex;

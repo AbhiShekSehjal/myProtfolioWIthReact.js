@@ -5,6 +5,7 @@ function Skills() {
     return (
         <div className='skills'>
             <div className="skillBox">
+                <h2>Skills</h2>
 
                 <ul className='list' >
                     <li><h3>Frontend</h3></li>

@@ -5,6 +5,7 @@ import Projects from './components/project/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import MainProject from './components/mainProject/MainProject'
+import Tools from './components/tools/Tools'
 
 function Home() {
     return (
@@ -12,9 +13,10 @@ function Home() {
             <>
                 <Header />
                 <About />
-                {/* <MainProject /> */}
+                <MainProject />
                 <Projects />
                 <Contact />
+                <Tools />
                 <Footer />
             </>
         </div>

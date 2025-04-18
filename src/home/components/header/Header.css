@@ -71,6 +71,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
+    /* background: #000; */
 }
 
 .heroImage {
@@ -113,7 +114,7 @@ h1 {
         position: absolute;
         border-radius: 0;
         animation: none;
-        background-position: calc(340px);
+        background-position: calc(450px);
     }
 
     .overlay {
@@ -205,5 +206,17 @@ h1 {
 
     .socialMedialinks a {
         padding: 3px;
+    }
+}
+
+@media (min-width:1024px) {
+    .heroImage {
+        top: 460px;
+    }
+}
+
+@media (max-height:800px)and (min-width:1080px) {
+    .heroImage {
+        top: 220px;
     }
 }
