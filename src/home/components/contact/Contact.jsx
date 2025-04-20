@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import NearMeIcon from '@mui/icons-material/NearMe';
 import EmailIcon from '@mui/icons-material/Email';
 import CallIcon from '@mui/icons-material/Call';
 import "./Contact.css"
 import { v4 as uuidv4 } from 'uuid';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+
+    const form = useRef();
 
     const [user, setUser] = useState({
         id: uuidv4(),
@@ -16,17 +19,43 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(user);
-        setUser({
-            name: "",
-            email: "",
-            msg: ""
-        });
+
+        emailjs.sendForm("service_bd03pev", "template_yxflagc", form.current, "x2D1IZ2RbKI3koulB")
+            .then((result) => {
+                console.log("message sent:", result.text);
+                alert("Message sent successfully!");
+                setUser({
+                    id: uuidv4(),
+                    name: "",
+                    email: "",
+                    msg: ""
+                })
+            },
+                (error) => {
+                    console.error("error sending message:", error.text);
+                    alert("Failed to sent message, please try again!");
+                    setUser({
+                        id: uuidv4(),
+                        name: "",
+                        email: "",
+                        msg: ""
+                    })
+                })
     }
+
+    // console.log(user);
+    // setUser({
+    //     id: uuidv4(),
+    //     name: "",
+    //     email: "",
+    //     msg: ""
+    // });
 
     const handleInputChange = (e) => {
         setUser((currentValue) => {
-            return { ...currentValue, [e.target.name]: e.target.value }
+            return {
+                ...currentValue, [e.target.name]: e.target.value
+            }
         });
     }
 
@@ -43,8 +72,11 @@ function Contact() {
                     <div className="outerEffect2"></div>
                 </div>
 
+
+
+                {/* ContactBox */}
                 <div className="ContactBox">
-                    <form onSubmit={() => handleSubmit()}>
+                    <form onSubmit={handleSubmit} ref={form}>
                         <input
                             id='name'
                             type="text"
@@ -52,6 +84,7 @@ function Contact() {
                             value={user.name}
                             onChange={handleInputChange}
                             name='name'
+                            required
                         />
                         <input
                             id='email'
@@ -60,6 +93,7 @@ function Contact() {
                             value={user.email}
                             onChange={handleInputChange}
                             name='email'
+                            required
                         />
                         <textarea
                             id='msg'
@@ -68,23 +102,18 @@ function Contact() {
                             value={user.msg}
                             onChange={handleInputChange}
                             name='msg'
+                            required
                         />
 
-                        <button className='sendBtn' type='submit'><a href="#hireButton">Send</a></button>
+                        <button className='sendBtn' type='submit'>Send</button>
 
                     </form>
                 </div>
 
             </div>
             <p className='extraInfo' style={{ margin: "60px auto", width: "40%", textAlign: "center", fontStyle: 'italic', lineHeight: "50px" }}>Full Stack Developer with
-                expertise in modern web
-                technologies, including React.js,
-                i18n, Node.js, Express.js, MySQL,
-                MongoDB and EJS. Passionate about
-                building scalable applications and
-                solving complex problems. Adept at
-                collaborating in team environments
-                and continuously expanding
+                expertise in modern web technologies, including React.js, i18n, Node.js, Express.js, MySQL, MongoDB and EJS. Passionate about
+                building scalable applications and solving complex problems. Adept at collaborating in team environments and continuously expanding
                 technical knowledge.</p>
         </div>
     )

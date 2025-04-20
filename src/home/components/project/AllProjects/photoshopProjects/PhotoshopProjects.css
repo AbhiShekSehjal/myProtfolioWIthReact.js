@@ -1,12 +1,7 @@
-/* jsh {
-    background: url("/public/images/psProjects/cor-e.jpg");
-    background: url("/public/images/psProjects/cor-e2.jpg");
-    background: url("/public/images/psProjects/psEdit.jpg");
-    background: url("/public/images/psProjects/SELECTEDLOGO.jpg");
-    background: url("/public/images/psProjects/WEB_BANNER.jpg");
-    background: url("/public/images/psProjects/SOCIAL_MEDIA_AD2nd.jpg");
-} */
-
-.card2 {
-   width: 100%;
+.myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }

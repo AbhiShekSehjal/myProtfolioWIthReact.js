@@ -12,6 +12,9 @@ function About() {
                 <Intro />
 
                 <Skills />
+                <br />
+                <br />
+                <br />
             </div>
         </div>
     )

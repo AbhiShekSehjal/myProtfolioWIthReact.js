@@ -14,33 +14,45 @@ function Header() {
     }
 
     return (
-        <div id='Home'>
-            <div className="mainContent">
-                <div className="leftMainContent">
+        <>
+            <div className="background">
+                {/* <div className="circle1"></div>
+                <div className="circle2"></div>
+                <div className="circle3"></div> */}
 
-                    <h1>I'm <span className='spanText2'>Web Developer</span></h1>
-                    <p className='mainPera'>Frontend Developer With A Passion For Creating Visually Stunning And User-Friendly Websites.</p>
+                <div className="codePng">
+                    
+                    </div>
+            </div>
 
-                    <div className="socialMedialinks">
+            <div id='Home'>
+                <div className="mainContent">
+                    <div className="leftMainContent">
 
-                        <a href={links.InstaLink.toString()}><InstagramIcon fontSize='small' /></a>
-                        <a href={links.GitLink.toString()}><GitHubIcon fontSize='small' /></a>
-                        <a href={links.LinkedInLink.toString()}><LinkedInIcon fontSize='small' /></a>
-                        <a href={links.Behance.toString()}><img src="/png/behance-512 (1).png" alt="" width={"20px"} /></a>
+                        <h1>I'm <span className='spanText2'>Web Developer</span></h1>
+                        <p className='mainPera'>Frontend Developer With A Passion For Creating Visually Stunning And User-Friendly Websites.</p>
+
+                        <div className="socialMedialinks">
+
+                            <a href={links.InstaLink.toString()}><InstagramIcon fontSize='small' /></a>
+                            <a href={links.GitLink.toString()}><GitHubIcon fontSize='small' /></a>
+                            <a href={links.LinkedInLink.toString()}><LinkedInIcon fontSize='small' /></a>
+                            <a href={links.Behance.toString()}><img src="/png/behance-512 (1).png" alt="" width={"20px"} /></a>
+
+                        </div>
+
+                        <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a>
 
                     </div>
 
-                    <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a>
-
-                </div>
-
-                <div className="rightMainContent">
-                    <div className="heroImage">
-                        <div className="overlay"></div>
+                    <div className="rightMainContent">
+                        <div className="heroImage">
+                            <div className="overlay"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

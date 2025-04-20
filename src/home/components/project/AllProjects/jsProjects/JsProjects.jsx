@@ -11,8 +11,8 @@ function JsProjects() {
     return (
         <div className="container">
             <div className="myProjects">
-                <h1>1st</h1>
-                <div className="card" style={{ width: "100%", background: "url(/public/images/rk.png)" }}>
+                {/* <h1>1st</h1> */}
+                <div className="card" style={{ width: "60%", background: "url(/public/images/rk.png)" }}>
                     <a className="cardBtn" style={{ textDecoration: "none" }} href={projects.rkFlex.toString()}>
                         <div>
                             <p>Show</p>
@@ -20,8 +20,8 @@ function JsProjects() {
                     </a>
                 </div>
 
-                <h1>2nd</h1>
-                <div className="card" style={{ width: "100%", background: "url(/public/images/SpeechRecognition.webp)" ,backgroundSize:"cover",backgroundPosition:"center"}}>
+                {/* <h1>2nd</h1> */}
+                <div className="card" style={{ width: "60%", background: "url(/images/SpeechRecognition.webp)" ,backgroundSize:"cover",backgroundPosition:"center"}}>
                     <a className="cardBtn" style={{ textDecoration: "none" }} href={projects.SpeechRecognitionApp.toString()}>
                         <div>
                             <p>Show</p>
@@ -29,8 +29,8 @@ function JsProjects() {
                     </a>
                 </div>
 
-                <h1>3rd</h1>
-                <div className="card" style={{ width: "100%", background: "url(/public/images/rk.png)" }}>
+                {/* <h1>3rd</h1> */}
+                <div className="card" style={{ width: "60%", background: "url(/images/rk.png)" }}>
                     <a className="cardBtn" style={{ textDecoration: "none" }} href={projects.rkFlex.toString()}>
                         <div>
                             <p>Show</p>

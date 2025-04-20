@@ -1,0 +1,9 @@
+.card {
+    margin-bottom: 150px;
+}
+
+.myProjects {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}

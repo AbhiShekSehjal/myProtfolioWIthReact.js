@@ -9,35 +9,35 @@ function Skills() {
 
                 <ul className='list' >
                     <li><h3>Frontend</h3></li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    <li>Tailwind CSS</li>
-                    <li>jQuary</li>
-                    <li>React.js</li>
-                    <li>Angular</li>
+                    <li className='skill'>HTML</li>
+                    <li className='skill'>CSS</li>
+                    <li className='skill'>JavaScript</li>
+                    <li className='skill'>Bootstrap</li>
+                    <li className='skill'>Tailwind</li>
+                    <li className='skill'>jQuary</li>
+                    <li className='skill'>React.js</li>
+                    <li className='skill'>Angular</li>
                 </ul>
 
 
                 <ul className='list' >
                     <li><h3>Backend</h3></li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
+                    <li className='skill'>Node.js</li>
+                    <li className='skill'>Express.js</li>
                 </ul>
 
 
                 <ul className='list' >
                     <li><h3>Database</h3></li>
-                    <li>MongoDB</li>
-                    <li>MySQL</li>
+                    <li className='skill'>MongoDB</li>
+                    <li className='skill'>MySQL</li>
                 </ul>
 
                 <ul className='list' >
                     <li><h3>Designing</h3></li>
-                    <li>AdobePhotoshop</li>
-                    <li>Adobe XD</li>
-                    <li>Figma</li>
+                    <li className='skill'>AdobePhotoshop</li>
+                    <li className='skill'>Adobe XD</li>
+                    <li className='skill'>Figma</li>
                 </ul>
             </div>
         </div>

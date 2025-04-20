@@ -7,7 +7,6 @@
     flex: 0.4;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.752);
     border-radius: 30px;
-    /* background: #000; */
 }
 
 .skillBox {
@@ -19,8 +18,17 @@
 }
 
 .skillBox h2 {
-width: 100%;
+    width: 100%;
     text-align: center;
+}
+
+.skill {
+    background-color: #00c9ff;
+    color: white;
+    font-weight: 500;
+    padding: 4px;
+    margin: 2px 0;
+    border-radius: 30px;
 }
 
 .list {
