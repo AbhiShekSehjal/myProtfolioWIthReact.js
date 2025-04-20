@@ -86,17 +86,19 @@ function Navbar() {
 
                 <a href="#Home" className="logo">Abhi <span className='dotSpan'>.</span></a>
 
-                <ul className="pageLinks">
-                    <li><NavLink to={""} className="NavLinks" style={{ textDecoration: "none" }}>Home</NavLink></li>
-                    <li><NavLink to={"/Works"} className="NavLinks" style={{ textDecoration: "none" }}>Works</NavLink></li>
-                    <li><NavLink to={"/Testimonials"} className="NavLinks" style={{ textDecoration: "none" }}>Testimonials</NavLink></li>
-                    <li><NavLink to={"/Portfolio"} className="NavLinks" style={{ textDecoration: "none" }}>Portfolio</NavLink></li>
-                    <li><NavLink to={"/Contact"} className="NavLinks" style={{ textDecoration: "none" }}>Contact</NavLink></li>
-                </ul>
+                <div className="pageLinks">
+                    <a href='#Home' className='NavLinks' style={{ textDecoration: "none" }}>Home</a>
+                    <a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a>
+                    <a href='#Testimonials' className='NavLinks' style={{ textDecoration: "none" }}>Testimonials</a >
+                    <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a >
+                </div >
 
-                <button className='CvButton'>
+                {/* <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a> */}
+
+
+                < button className='CvButton' >
                     <a href="https://drive.google.com/file/d/1imaxitWiKE3jDUCcmEo9BdCIGSoeZNs7/view" className='CV'>Resume</a>
-                </button>
+                </button >
 
                 <div class="hamburger" id="hamburger" onClick={() => { showSidebar() }}>
                     <span class="line1" id="line1"></span>
@@ -105,17 +107,17 @@ function Navbar() {
                 </div>
 
 
-            </nav>
+            </nav >
             <div className="sidebar">
+
                 <ul className="pageLinksPagelinks" onClick={() => { hideSidebar() }}>
-                    <li><NavLink to={""} className="NavLinks" style={{ textDecoration: "none" }}>Home</NavLink></li>
-                    <li><NavLink to={"/Works"} className="NavLinks" style={{ textDecoration: "none" }}>Works</NavLink></li>
-                    <li><NavLink to={"/Testimonials"} className="NavLinks" style={{ textDecoration: "none" }}>Testimonials</NavLink></li>
-                    <li><NavLink to={"/Portfolio"} className="NavLinks" style={{ textDecoration: "none" }}>Portfolio</NavLink></li>
-                    <li><NavLink to={"/Contact"} className="NavLinks" style={{ textDecoration: "none" }}>Contact</NavLink></li>
+                    <li><a href='#Home' className='NavLinks' style={{ textDecoration: "none" }}>Home</a></li>
+                    <li><a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a></li>
+                    <li><a href='#Testimonials' className='NavLinks' style={{ textDecoration: "none" }}>Testimonials</a ></li>
+                    <li> <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a ></li>
                     <li><a href="https://drive.google.com/file/d/1imaxitWiKE3jDUCcmEo9BdCIGSoeZNs7/view">See my Resume</a></li>
-                </ul>
-            </div>
+                </ul >
+            </div >
         </>
     )
 }

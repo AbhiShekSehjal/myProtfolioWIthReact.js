@@ -36,7 +36,7 @@ function Skills() {
                 <ul className='list' >
                     <li><h3>Designing</h3></li>
                     <li className='skill'>AdobePhotoshop</li>
-                    <li className='skill'>Adobe XD</li>
+                    <li className='skill'>Adobe-XD</li>
                     <li className='skill'>Figma</li>
                 </ul>
             </div>
