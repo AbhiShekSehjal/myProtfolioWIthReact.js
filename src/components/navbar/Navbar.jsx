@@ -97,7 +97,7 @@ function Navbar() {
 
 
                 < button className='CvButton' >
-                    <a href="https://drive.google.com/file/d/1imaxitWiKE3jDUCcmEo9BdCIGSoeZNs7/view" className='CV'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1-Ppk7fUGNhos4Qbs5AHcad7njJeHOXSj/view?usp=drive_link" className='CV'>Resume</a>
                 </button >
 
                 <div class="hamburger" id="hamburger" onClick={() => { showSidebar() }}>
