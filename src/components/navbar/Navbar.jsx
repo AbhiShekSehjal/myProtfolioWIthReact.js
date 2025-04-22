@@ -115,7 +115,7 @@ function Navbar() {
                     <li><a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a></li>
                     <li><a href='#Testimonials' className='NavLinks' style={{ textDecoration: "none" }}>Testimonials</a ></li>
                     <li> <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a ></li>
-                    <li><a href="https://drive.google.com/file/d/1imaxitWiKE3jDUCcmEo9BdCIGSoeZNs7/view">See my Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1-Ppk7fUGNhos4Qbs5AHcad7njJeHOXSj/view?usp=drive_link">See my Resume</a></li>
                 </ul >
             </div >
         </>
