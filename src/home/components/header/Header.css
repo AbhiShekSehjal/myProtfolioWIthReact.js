@@ -12,13 +12,16 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
+    background-color: transparent;
 }
 
 .spanText2 {
     /* color: #00C9FF; */
+    background-color: transparent;
 }
 
 h1 {
+    background-color: transparent;
     font-size: 48px;
     font-weight: 600;
     margin: 20px 0;
@@ -26,7 +29,7 @@ h1 {
 
 .mainPera {
     font-size: 18px !important;
-    margin-bottom: 46px;
+    margin-bottom: 30px;
     font-weight: 500;
     line-height: 25px;
     color: white;
@@ -37,11 +40,11 @@ h1 {
     display: flex;
     align-items: center;
     gap: 30px;
+    background-color: transparent;
 }
 
 .socialMedialinks a {
     color: white;
-    background: rgb(0, 0, 0);
     height: 40px;
     width: 40px;
     display: flex;
@@ -50,8 +53,12 @@ h1 {
     border-radius: 50%;
 }
 
+.contactMe{
+    background-color: transparent !important;
+}
+
 .hireMe {
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: 500;
     padding: 12px 20px;
     background: rgba(83, 89, 83, 0.199);
@@ -183,6 +190,8 @@ h1 {
 
     .mainPera {
         font-size: 14px;
+        text-align: left;
+        padding: 25px;
     }
 }
 
@@ -222,6 +231,5 @@ h1 {
 
 @media (max-height:800px)and (min-width:1080px) {
     .heroImage {
-        /* top: 220px; */
     }
 }

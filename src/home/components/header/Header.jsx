@@ -26,7 +26,7 @@ function Header() {
 
                         </div>
 
-                        <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a>
+                        <a href="#contactMe" className='contactMe' style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a>
 
                     </div>
 
