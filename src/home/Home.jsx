@@ -15,6 +15,10 @@ function Home() {
                 <About />
                 {/* <MainProject /> */}
                 <Projects />
+                <br />
+                <br />
+                <br />
+                <br />
                 <Contact />
                 {/* <Tools /> */}
                 <br />

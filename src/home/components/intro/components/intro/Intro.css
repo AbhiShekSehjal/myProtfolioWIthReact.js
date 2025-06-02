@@ -2,9 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
     flex: 0.4;
-    border-radius: 30px;
 }
 
 .introBox {
@@ -12,23 +10,25 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 25px;
     text-align: center;
+    padding: 0px 30px;
 }
 
 .introBox h2 {
     margin-bottom: 20px;
     color: white;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .introPera {
     color: white;
+    line-height: 30px;
     font-size: 18px;
 }
 
 @media (max-width:480px) {
     .intro {
         box-shadow: none;
-        padding: 15px;
     }
 }

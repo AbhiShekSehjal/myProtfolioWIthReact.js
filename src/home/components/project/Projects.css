@@ -1,5 +1,5 @@
 .projectContent {
-    padding: 80px 30px;
+    padding: 0px 30px;
     /* height: 800px; */
 }
 
@@ -16,25 +16,10 @@
     font-size: 40px;
     font-weight: 700;
     font-family: "poppins", "sans-serif";
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     color: #444444;
     width: 100%;
 }
-
-/* 
-.project1 {
-    background: url("/images/projectsImages/blog.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.project2 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 
 @media (max-width:480px) {
     .projectText {

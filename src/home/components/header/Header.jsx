@@ -17,7 +17,7 @@ function Header() {
                     <div className="leftMainContent">
 
                         <h1>I'm <span className='spanText2'>Web Developer</span></h1>
-                        <p className='mainPera'>Frontend Developer With A Passion For Creating Visually Stunning And User-Friendly Websites.</p>
+                        <p className='mainPera'>Full Stack Developer passionate about crafting visually appealing, user-friendly, and fully functional web applications from front to back.</p>
 
                         <div className="socialMedialinks">
 
