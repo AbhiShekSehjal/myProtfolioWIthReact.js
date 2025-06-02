@@ -1,14 +1,18 @@
 import React from 'react'
 import "./ProjectCard.css"
-import SourceIcon from '@mui/icons-material/Source';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
-function ProjectCard({name}) {
+function ProjectCard({ name, summery }) {
     return (
-        <div className="projectCard">
-            <i><SourceIcon fontSize='large' /></i>
-            <h2>{name}</h2>
-            <div className="outerEffect"></div>
-        </div>
+        <>
+            <div className="projectCard">
+            <i><OpenInNewIcon fontSize='large' /></i>
+                <h2>{name}</h2>
+                <p>{summery}</p>
+
+                <div className="outerEffect"></div>
+            </div>
+        </>
     )
 }
 

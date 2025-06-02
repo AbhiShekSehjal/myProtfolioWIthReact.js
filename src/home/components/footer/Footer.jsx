@@ -28,7 +28,6 @@ function Footer() {
 
             <div className="socialMedialinks">
 
-                <a href={links.InstaLink.toString()}><InstagramIcon fontSize='small' /></a>
                 <a href={links.GitLink.toString()}><GitHubIcon fontSize='small' /></a>
                 <a href={links.LinkedInLink.toString()}><LinkedInIcon fontSize='small' /></a>
 

@@ -1,18 +1,18 @@
 .footer {
     width: 100%;
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     padding: 20px 0px 20px 0px;
+    border-top: 1px solid;
 }
 
 .MyName {
     font-size: 25px;
     font-weight: 700;
     font-family: "poppins", "sans-serif";
-    color: #444444;
+    color: #d7cbcb;
 }
 
 .pageLinksOfFooter ul {
@@ -33,6 +33,7 @@
 
 .footerLastLine {
     display: inline;
+    font-size: 14px ;
 }
 
 .socialMedialinks {

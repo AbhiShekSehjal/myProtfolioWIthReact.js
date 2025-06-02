@@ -21,14 +21,13 @@ function Navbar() {
                 const line2 = document.querySelector("#line2");
                 const line3 = document.querySelector("#line3");
 
-                navbar.style.backgroundColor = "white";
+                navbar.style.backgroundColor = "black";
 
-                logo.style.color = "#00c9ff";
-                dotSpan.style.color = "black";
-
-                line1.style.backgroundColor = "black";
-                line2.style.backgroundColor = "black";
-                line3.style.backgroundColor = "black";
+                logo.style.color = "white";
+                dotSpan.style.color = "white";
+                line1.style.backgroundColor = "white";
+                line2.style.backgroundColor = "white";
+                line3.style.backgroundColor = "white";
             } else {
                 setScroll("up")
                 let navbar = document.querySelector(".navbar");
@@ -37,12 +36,19 @@ function Navbar() {
                 const line1 = document.querySelector("#line1");
                 const line2 = document.querySelector("#line2");
                 const line3 = document.querySelector("#line3");
-                navbar.style.backgroundColor = "#003a4a";
-                logo.style.color = "white";
-                dotSpan.style.color = "white";
-                line1.style.backgroundColor = "white";
-                line2.style.backgroundColor = "white";
-                line3.style.backgroundColor = "white";
+                const sidebar = document.querySelector(".sidebar");
+
+                if (sidebar) {
+                    sidebar.style.right = "-1800px";
+                }
+
+                navbar.style.backgroundColor = "white";
+
+                logo.style.color = "black";
+                dotSpan.style.color = "black";
+                line1.style.backgroundColor = "black";
+                line2.style.backgroundColor = "black";
+                line3.style.backgroundColor = "black";
             }
 
             lastScrollY = currentScrollY;
@@ -56,10 +62,11 @@ function Navbar() {
     const showSidebar = () => {
         const sidebar = document.querySelector(".sidebar");
         if (sidebar.style.right === "0px") {
-            sidebar.style.right = "-300px"
+            sidebar.style.right = "-1800px";
         } else {
             sidebar.style.right = "0px";
         }
+
         const line1 = document.querySelector("#line1");
         const line2 = document.querySelector("#line2");
         const line3 = document.querySelector("#line3");
@@ -76,7 +83,7 @@ function Navbar() {
 
     const hideSidebar = () => {
         const sidebar = document.querySelector(".sidebar");
-        sidebar.style.right = "-300px";
+        sidebar.style.right = "-1800px";
     }
 
 
@@ -87,17 +94,17 @@ function Navbar() {
                 <a href="#Home" className="logo">Abhi <span className='dotSpan'>.</span></a>
 
                 <div className="pageLinks">
-                    <a href='#Home' className='NavLinks' style={{ textDecoration: "none" }}>Home</a>
-                    <a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a>
-                    <a href='#Testimonials' className='NavLinks' style={{ textDecoration: "none" }}>Testimonials</a >
-                    <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a >
+                    <a href='#Home' className='NavLinks'>Home</a>
+                    <a href='#projects' className='NavLinks'>Projects</a>
+                    <a href='#Testimonials' className='NavLinks'>Testimonials</a >
+                    <a href="#contactMe" className='NavLinks'>Contact Me</a >
                 </div >
 
                 {/* <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a> */}
 
 
                 < button className='CvButton' >
-                    <a href="/pdf/Abhishek_Sehjal_Resume_Clickable.pdf" className='CV'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1SPjLdycyyatOYvZiUXoYYLU63y9aDxYR/view?usp=drive_link" className='CV'>Resume</a>
                 </button >
 
                 <div class="hamburger" id="hamburger" onClick={() => { showSidebar() }}>
@@ -110,12 +117,14 @@ function Navbar() {
             </nav >
             <div className="sidebar">
 
+                <div className="justStylingOnNavbar"></div>
+
                 <ul className="pageLinksPagelinks" onClick={() => { hideSidebar() }}>
                     <li><a href='#Home' className='NavLinks' style={{ textDecoration: "none" }}>Home</a></li>
                     <li><a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a></li>
                     <li><a href='#Testimonials' className='NavLinks' style={{ textDecoration: "none" }}>Testimonials</a ></li>
                     <li> <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a ></li>
-                    <li><a href="https://drive.google.com/file/d/16n_FitCZCnVPiq-p4bG5XJIVVTPeYCQS/view?usp=drive_link">See my Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1SPjLdycyyatOYvZiUXoYYLU63y9aDxYR/view?usp=drive_link">See my Resume</a></li>
                 </ul >
             </div >
         </>

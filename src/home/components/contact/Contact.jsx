@@ -111,10 +111,10 @@ function Contact() {
                 </div>
 
             </div>
-            <p className='extraInfo' style={{ margin: "60px auto", width: "40%", textAlign: "center", fontStyle: 'italic', lineHeight: "50px" }}>Full Stack Developer with
+            {/* <p className='extraInfo' style={{ margin: "60px auto", width: "40%", textAlign: "center", fontStyle: 'italic', lineHeight: "50px" }}>Full Stack Developer with
                 expertise in modern web technologies, including React.js, i18n, Node.js, Express.js, MySQL, MongoDB and EJS. Passionate about
                 building scalable applications and solving complex problems. Adept at collaborating in team environments and continuously expanding
-                technical knowledge.</p>
+                technical knowledge.</p> */}
         </div>
     )
 }
