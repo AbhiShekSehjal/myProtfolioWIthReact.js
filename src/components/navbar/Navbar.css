@@ -32,7 +32,6 @@
     justify-content: space-around;
     flex: 0.6;
     list-style: none;
-    /* color: #444444; */
     font-weight: 600;
     transition: 0.2s ease-in;
     background-color: transparent;
@@ -131,13 +130,13 @@
     gap: 20px;
 }
 
-.justStylingOnNavbar {
+.justStylingforSidebar {
     border-radius: 50%;
     opacity: 0.5;
     position: absolute;
     top: 50px;
     right: 0;
-    animation: transformCircle 5s ease 0s infinite alternate;
+    animation: transformCircle 3s ease 0s infinite alternate;
     filter: blur(4px);
     box-shadow: 0 0 1000px 150px #ffffff6c;
 }
@@ -148,11 +147,7 @@
         transform: translateY(0px);
     }
 
-    50% {
-        transform: translateY(600px);
-    }
-
-    100%{
+    100% {
         transform: translateY(600px);
     }
 }

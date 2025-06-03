@@ -86,7 +86,7 @@ h1 {
 }
 
 .heroImage {
-    background-image: url("/images/heroImage.jpg");
+    background-image: url("https://res.cloudinary.com/dtotogjvb/image/upload/v1748932412/heroImage_btqyin.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -98,10 +98,41 @@ h1 {
 }
 
 .heroImage:hover {
-    background-image: url("/gif/gif1.gif");
+    background-image: url("https://res.cloudinary.com/dtotogjvb/image/upload/v1748932497/gif1_uovphm.gif");
     opacity: 0.5;
 }
 
+.justStylingforHeader1 {
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    right:100px;
+    animation: transformCircle 6s ease 0s infinite alternate;
+    filter: blur(4px);
+    box-shadow: 0 0 1000px 100px #ffffff6c;
+}
+
+.justStylingforHeader2 {
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    animation: transformCircle 3s ease 0s infinite alternate;
+    filter: blur(4px);
+    box-shadow: 0 0 1000px 150px #ffffff6c;
+}
+
+@keyframes transformCircle {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(600px);
+    }
+}
 
 @keyframes imageAnimate {
     50% {

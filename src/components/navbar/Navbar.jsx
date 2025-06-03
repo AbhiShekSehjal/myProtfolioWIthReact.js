@@ -96,12 +96,9 @@ function Navbar() {
                 <div className="pageLinks">
                     <a href='#Home' className='NavLinks'>Home</a>
                     <a href='#projects' className='NavLinks'>Projects</a>
-                    <a href='#Testimonials' className='NavLinks'>Testimonials</a >
+                    <a href='#experience' className='NavLinks'>Experience</a >
                     <a href="#contactMe" className='NavLinks'>Contact Me</a >
                 </div >
-
-                {/* <a href="#contactMe" style={{ textDecoration: "none" }}><div className="hireMe">Hire me</div></a> */}
-
 
                 < button className='CvButton' >
                     <a href="https://drive.google.com/file/d/1SPjLdycyyatOYvZiUXoYYLU63y9aDxYR/view?usp=drive_link" className='CV'>Resume</a>
@@ -112,21 +109,21 @@ function Navbar() {
                     <span class="line2" id="line2"></span>
                     <span class="line3" id="line3"></span>
                 </div>
-
-
             </nav >
-            <div className="sidebar">
 
-                <div className="justStylingOnNavbar"></div>
+
+            <section className="sidebar">
+
+                <div className="justStylingforSidebar"></div>
 
                 <ul className="pageLinksPagelinks" onClick={() => { hideSidebar() }}>
                     <li><a href='#Home' className='NavLinks' style={{ textDecoration: "none" }}>Home</a></li>
                     <li><a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a></li>
-                    <li><a href='#Testimonials' className='NavLinks' style={{ textDecoration: "none" }}>Testimonials</a ></li>
+                    <li><a href='#experience' className='NavLinks' style={{ textDecoration: "none" }}>Experience</a ></li>
                     <li> <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a ></li>
                     <li><a href="https://drive.google.com/file/d/1SPjLdycyyatOYvZiUXoYYLU63y9aDxYR/view?usp=drive_link">See my Resume</a></li>
                 </ul >
-            </div >
+            </section >
         </>
     )
 }

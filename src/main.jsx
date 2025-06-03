@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Home from './home/Home.jsx'
-import Works from './works/Works.jsx'
-import Testimonials from './testimonals/Testimonials.jsx'
-import Portfolio from './portfolio/Portfolio.jsx'
-import Contact from './contact/Contact.jsx'
+// import Works from './works/Works.jsx'
+// import Testimonials from './testimonals/Testimonials.jsx'
+// import Portfolio from './portfolio/Portfolio.jsx'
+// import Contact from './contact/Contact.jsx'
 // import ReactProjects from './home/components/project/AllProjects/reactProjects/ReactProjects.jsx'
 // import HtmlProjects from './home/components/project/AllProjects/htmlProjects/HtmlProjects.jsx'
 // import JsProjects from './home/components/project/AllProjects/jsProjects/JsProjects.jsx'
@@ -20,10 +20,10 @@ const router = createBrowserRouter(
 
       {/* pages not yet show */}
       <Route path='' element={<Home />} />
-      <Route path='Works' element={<Works />} />
+      {/* <Route path='Works' element={<Works />} />
       <Route path='Testimonials' element={<Testimonials />} />
       <Route path='Portfolio' element={<Portfolio />} />
-      <Route path='Contact' element={<Contact />} />
+      <Route path='Contact' element={<Contact />} /> */}
 
       {/* projects Route */}
       {/* <Route path='reactProjects' element={<ReactProjects />} />

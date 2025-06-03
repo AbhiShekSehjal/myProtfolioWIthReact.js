@@ -29,6 +29,10 @@
     margin: 4px 0;
 }
 
+.skill:hover{
+    border-radius: 40px;
+}
+
 .list {
     list-style: none;
     display: flex;

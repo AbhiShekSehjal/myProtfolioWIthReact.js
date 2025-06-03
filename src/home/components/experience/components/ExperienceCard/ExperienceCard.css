@@ -1,0 +1,139 @@
+.experienceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+.isInternship {
+    color: #00C9FF;
+    font-weight: 300;
+}
+
+.companyName {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+.experienceAboutWork {
+    font-size: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lines {
+    line-height: 24px;
+}
+
+.certificatePDF {
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.certificatePDF:hover{
+    color: orange;
+}
+
+.selectedPDFBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.selectedPDFBoxImage {
+    width: fit-content;
+    max-height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.selectedPDFBoxCloseBtn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: black;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selectedPDFBoxCloseBtn:hover {
+    border: 1px solid white;
+}
+
+@media (max-width:480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .companyName {
+        font-size: 16px;
+    }
+
+    .experienceAboutWork {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    .selectedPDFBoxImage {
+        max-height: 40vh;
+
+    }
+}
+
+@media (max-width:400px) {
+    .selectedPDFBoxImage {
+        max-height: 30vh;
+    }
+}
+
+@media (max-width:300px) {
+    .selectedPDFBoxImage {
+        max-height: 25vh;
+    }
+
+    .selectedPDFBoxCloseBtn {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width:250px) {
+    .selectedPDFBoxImage {
+        max-height: 20vh;
+    }
+}

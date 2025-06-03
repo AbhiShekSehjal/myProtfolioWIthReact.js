@@ -14,6 +14,11 @@ function Header() {
         <>
             <div id='Home'>
                 <div className="mainContent">
+
+                    <div className="justStylingforHeader1"></div>
+                    <div className="justStylingforHeader2"></div>
+
+
                     <div className="leftMainContent">
 
                         <h1>I'm <span className='spanText2'>Web Developer</span></h1>
