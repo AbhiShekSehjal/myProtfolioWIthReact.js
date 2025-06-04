@@ -13,19 +13,19 @@ function ExperienceCard({
 }) {
     return (
         <>
-            {selectedPDF && (
-                <div className="selectedPDFBox">
-                    <img className="selectedPDFBoxImage" src={selectedPDF} />
-                    <button className="selectedPDFBoxCloseBtn" onClick={handlePDFClose}>X</button>
-                </div >
-            )
-            }
             <div className='experienceCard'>
                 <div className="title" style={{ marginBottom: "30px" }}>{jobTitle}
                     <div className="isInternship">{isInternship && "Internship"}</div>
 
                     <div className="certificatePDF" onClick={handleOnClick}><LinkIcon />Certificate PDF</div>
 
+                    {selectedPDF && (
+                        <div className="selectedPDFBox">
+                            <img className="selectedPDFBoxImage" src={selectedPDF} />
+                            <button className="selectedPDFBoxCloseBtn" onClick={handlePDFClose}>X</button>
+                        </div >
+                    )
+                    }
                 </div>
 
                 <div className="companyName" style={{ marginBottom: "15px" }}>{companyName}

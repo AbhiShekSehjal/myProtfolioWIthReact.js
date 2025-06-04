@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     border-bottom: 1px solid #ffffff;
-    z-index: 500;
+    z-index: 5000;
     transition: all 0.3s ease;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .NavLinks:hover {
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.505);
     cursor: pointer;
 }
 

@@ -16,9 +16,9 @@ function Experience({ selectedPDF, setSelectedPDF }) {
     };
 
     const closePDF = () => {
-        if (selectedPDF) {
+        // if (selectedPDF) {
             setSelectedPDF(null);
-        }
+        // }
     }
 
     const experienceAboutWork = [
