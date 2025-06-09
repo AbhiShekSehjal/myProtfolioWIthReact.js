@@ -7,7 +7,7 @@ function Header() {
 
     const links = {
         GitLink: "https://github.com/AbhiShekSehjal",
-        LinkedInLink: "https://www.linkedin.com/in/abhi-shek-4a78a5353/",
+        LinkedInLink: "https://www.linkedin.com/in/abhishek-singh-4a78a5353/",
     }
 
     return (

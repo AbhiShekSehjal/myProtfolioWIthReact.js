@@ -101,7 +101,7 @@ function Navbar() {
                 </div >
 
                 < button className='CvButton' >
-                    <a href="https://drive.google.com/file/d/1SPjLdycyyatOYvZiUXoYYLU63y9aDxYR/view?usp=drive_link" className='CV'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1YW6xpFW7e5Mqx-FivX_JpEBEQvksQIBG/view?usp=drive_link" className='CV'>Check my Resume</a>
                 </button >
 
                 <div class="hamburger" id="hamburger" onClick={() => { showSidebar() }}>
@@ -121,7 +121,7 @@ function Navbar() {
                     <li><a href='#projects' className='NavLinks' style={{ textDecoration: "none" }}>Projects</a></li>
                     <li><a href='#experience' className='NavLinks' style={{ textDecoration: "none" }}>Experience</a ></li>
                     <li> <a href="#contactMe" className='NavLinks' style={{ textDecoration: "none" }}>Contact Me</a ></li>
-                    <li><a href="https://drive.google.com/file/d/1SPjLdycyyatOYvZiUXoYYLU63y9aDxYR/view?usp=drive_link">See my Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1YW6xpFW7e5Mqx-FivX_JpEBEQvksQIBG/view?usp=drive_link">Check my Resume</a></li>
                 </ul >
             </section >
         </>
