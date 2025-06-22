@@ -86,7 +86,7 @@ h1 {
 }
 
 .heroImage {
-    background-image: url("https://res.cloudinary.com/dtotogjvb/image/upload/v1748932412/heroImage_btqyin.jpg");
+    background-image: url("https://res.cloudinary.com/dtotogjvb/image/upload/v1750606820/91_78883_39203_20250622_210324_p2ooma.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -98,7 +98,7 @@ h1 {
 }
 
 .heroImage:hover {
-    background-image: url("https://res.cloudinary.com/dtotogjvb/image/upload/v1748932497/gif1_uovphm.gif");
+    background-image: url("https://res.cloudinary.com/dtotogjvb/image/upload/v1750606563/hack_coding_GIF_by_Matthew_Butler_vdth6l.gif");
     opacity: 0.5;
 }
 
