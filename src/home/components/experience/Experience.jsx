@@ -4,7 +4,7 @@ import ExperienceCard from './components/ExperienceCard/ExperienceCard'
 function Experience({ selectedPDF, setSelectedPDF }) {
 
     const Certificates = {
-        UnifiedMentor: "https://res.cloudinary.com/dtotogjvb/image/upload/v1748936591/1748573539396-edf8a15a-f94a-4143-9209-40998ee40f79_1_zph75p.jpg"
+        UnifiedMentor: "https://res.cloudinary.com/dtotogjvb/image/upload/v1750609021/1748573539396-edf8a15a-f94a-4143-9209-40998ee40f79_1_cubkxw.jpg"
     }
 
     const handleOnClick = (PDF) => {
