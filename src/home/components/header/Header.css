@@ -110,7 +110,7 @@ h1 {
     left:100px;
     animation: transformCircle 6s ease 0s infinite alternate;
     filter: blur(4px);
-    box-shadow: 0 0 1000px 100px #ffffffdd;
+    box-shadow: 0 0 1000px 100px #ffffff4e;
 }
 
 .justStylingforHeader2 {
@@ -121,7 +121,7 @@ h1 {
     right: 50px;
     animation: transformCircle 3s ease 0s infinite alternate;
     filter: blur(4px);
-    box-shadow: 0 0 1000px 150px #ffffff6c;
+    box-shadow: 0 0 1000px 150px #ffffff3f;
 }
 
 @keyframes transformCircle {
