@@ -25,10 +25,10 @@ function Projects() {
             link: "https://insta-ui-dusky.vercel.app/"
         },
         RkFlex: {
-            image: "https://res.cloudinary.com/dtotogjvb/image/upload/v1750607086/Screenshot_2025-06-02_173707_k3gfsx.png",
-            name: "Rk Flex - A website for designing walls",
+            image: "",
+            name: "Rk Flex - E-commerce website to buy designing walls",
             summary: "Rk FleX is a sleek and modern user interface built using HTML, CSS, and JavaScript. It features a responsive layout, smooth navigation, and Font Awesome integration. Designed with a focus on clean structure and mobile-first principles, it highlights strong frontend and UI/UX skills—ideal for professional portfolios and web-based projects.",
-            link: "https://github.com/AbhiShekSehjal/RkFlexThird"
+            link: ""
         },
         WeatherApp: {
             image: "https://res.cloudinary.com/dtotogjvb/image/upload/v1750607082/Screenshot_2025-06-02_174838_ry9e9e.png",
