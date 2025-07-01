@@ -25,10 +25,10 @@ function Projects() {
             link: "https://insta-ui-dusky.vercel.app/"
         },
         RkFlex: {
-            image: "",
+            image: "https://res.cloudinary.com/dtotogjvb/image/upload/v1751383540/Screenshot_2025-07-01_123746_xsff2b.png",
             name: "Rk Flex - E-commerce website to buy designing walls",
-            summary: "Rk FleX is a sleek and modern user interface built using HTML, CSS, and JavaScript. It features a responsive layout, smooth navigation, and Font Awesome integration. Designed with a focus on clean structure and mobile-first principles, it highlights strong frontend and UI/UX skills—ideal for professional portfolios and web-based projects.",
-            link: ""
+            summary: "Rk FleX is a real-time e-commerce website using the MERN stack. Implemented payment gateway using Razorpay. User can search the product by name, by color, by pattern of wallpaper and also can filter the product by cost.",
+            link: "https://rk-flex-frontend.onrender.com/"
         },
         WeatherApp: {
             image: "https://res.cloudinary.com/dtotogjvb/image/upload/v1750607082/Screenshot_2025-06-02_174838_ry9e9e.png",
@@ -61,8 +61,6 @@ function Projects() {
                 <a href={data.ChatApp.link} style={{ textDecoration: "none" }}><ProjectCard name={data.ChatApp.name} summary={data.ChatApp.summary} image={data.ChatApp.image} />
                 </a>
 
-                <a href={data.InstaUi.link} style={{ textDecoration: "none" }}><ProjectCard name={data.InstaUi.name} summary={data.InstaUi.summary} image={data.InstaUi.image} />
-                </a>
 
                 <a href={data.RkFlex.link} style={{ textDecoration: "none" }}><ProjectCard name={data.RkFlex.name} summary={data.RkFlex.summary} image={data.RkFlex.image} />
                 </a>
@@ -74,6 +72,9 @@ function Projects() {
                 </a>
 
                 <a href={data.SpeechApi.link} style={{ textDecoration: "none" }}><ProjectCard name={data.SpeechApi.name} summary={data.SpeechApi.summary} image={data.SpeechApi.image} />
+                </a>
+
+                <a href={data.InstaUi.link} style={{ textDecoration: "none" }}><ProjectCard name={data.InstaUi.name} summary={data.InstaUi.summary} image={data.InstaUi.image} />
                 </a>
             </div>
         </div>
